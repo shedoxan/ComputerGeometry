@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_Viewer2d_FILE C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/apps/Viewer2d/Viewer2d.exe)
+set(__QT_DEPLOY_TARGET_Viewer2d_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_Viewer2d_RUNTIME_DLLS C:/Qt/6.9.2/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.9.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.9.2/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_PlaneGeometry_FILE C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/lib/PlaneGeometry/libPlaneGeometry.a)
+set(__QT_DEPLOY_TARGET_PlaneGeometry_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_PlaneGeometryTests_FILE C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/PlaneGeometryTests.exe)
+set(__QT_DEPLOY_TARGET_PlaneGeometryTests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_PlaneGeometryTests_RUNTIME_DLLS C:/Qt/6.9.2/mingw_64/bin/Qt6Test.dll;C:/Qt/6.9.2/mingw_64/bin/Qt6Core.dll)

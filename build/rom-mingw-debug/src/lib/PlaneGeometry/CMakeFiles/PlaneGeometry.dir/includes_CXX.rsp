@@ -1,0 +1,1 @@
+-I"C:/c++/Qt/project/build/rom-mingw-debug/src/lib/PlaneGeometry" -IC:/c++/Qt/project/src/lib/PlaneGeometry -I"C:/c++/Qt/project/build/rom-mingw-debug/src/lib/PlaneGeometry/PlaneGeometry_autogen/include" -IC:/c++/Qt/project/src/lib/PlaneGeometry/.. -isystem "C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include"

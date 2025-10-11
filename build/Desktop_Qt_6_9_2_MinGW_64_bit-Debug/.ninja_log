@@ -1,0 +1,27 @@
+# ninja log v6
+8	163	7819218970225131	src/lib/PlaneGeometry/PlaneGeometry_autogen/timestamp	98369dc7eb01a962
+8	163	7819218970225131	src/lib/PlaneGeometry/PlaneGeometry_autogen/mocs_compilation.cpp	98369dc7eb01a962
+8	163	7819218970225131	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/lib/PlaneGeometry/PlaneGeometry_autogen/timestamp	98369dc7eb01a962
+8	163	7819218970225131	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/lib/PlaneGeometry/PlaneGeometry_autogen/mocs_compilation.cpp	98369dc7eb01a962
+165	234	7819218970700906	src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneGeometry_autogen/mocs_compilation.cpp.obj	f644a7c81ad91d35
+168	1790	7819218970731013	src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj	88d61a4abf23b31f
+1793	2035	7819218986975113	src/lib/PlaneGeometry/libPlaneGeometry.a	588ed493c9449551
+2035	3079	7819218999203594	src/apps/Viewer2d/Viewer2d_autogen/timestamp	f9c9a8457e81984d
+2035	3079	7819218999203594	src/apps/Viewer2d/Viewer2d_autogen/mocs_compilation.cpp	f9c9a8457e81984d
+2035	3079	7819218999203594	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/apps/Viewer2d/Viewer2d_autogen/timestamp	f9c9a8457e81984d
+2035	3079	7819218999203594	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/apps/Viewer2d/Viewer2d_autogen/mocs_compilation.cpp	f9c9a8457e81984d
+2040	3442	7819219002425344	src/tests/PlaneGeometryTests_autogen/timestamp	900db5474a256dc
+2040	3442	7819219002425344	src/tests/PlaneGeometryTests_autogen/mocs_compilation.cpp	900db5474a256dc
+2040	3442	7819219002425344	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/PlaneGeometryTests_autogen/timestamp	900db5474a256dc
+2040	3442	7819219002425344	C:/c++/Qt/project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/PlaneGeometryTests_autogen/mocs_compilation.cpp	900db5474a256dc
+3443	3515	7819219003479193	src/tests/CMakeFiles/PlaneGeometryTests.dir/PlaneGeometryTests_autogen/mocs_compilation.cpp.obj	2113d3ef53e36283
+3093	5399	7819218999984619	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/drawwidget.cpp.obj	d113da2e6820a73d
+3098	5487	7819219000031393	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.obj	c0ea27b5da01dd7d
+3109	5751	7819219000143070	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj	7f17674967736bc6
+3084	6106	7819218999883270	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/main.cpp.obj	7471915b64968c78
+3080	6469	7819218999853277	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.obj	417bddc98bca9131
+3104	6677	7819219000086499	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisiondrawwidget.cpp.obj	26d6174ff0ed927a
+3088	7020	7819218999928369	src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj	264e87ebf3ad6684
+7021	7906	7819219039255067	src/apps/Viewer2d/Viewer2d.exe	12dd598c9091eff0
+3450	7954	7819219003554287	src/tests/CMakeFiles/PlaneGeometryTests.dir/PlaneGeometryTests.cpp.obj	d3d15557a3a71e33
+7954	8147	7819219048587196	src/tests/PlaneGeometryTests.exe	d705e3aac9859d79

@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/lib/PlaneGeometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "PlaneGeometry_autogen_timestamp_deps::@4862c6e8a9023a6ad953",
+	"isGeneratorProvided" : true,
+	"name" : "PlaneGeometry_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/lib/PlaneGeometry",
+		"source" : "src/lib/PlaneGeometry"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

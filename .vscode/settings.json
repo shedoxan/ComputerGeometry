@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.useCMakePresets": "always",
+    "cmake.defaultConfigurePreset": "rom-mingw-debug",
+    "cmake.defaultBuildPreset": "rom-build-debug",
+    "cmake.buildBeforeRun": true,
+    "cmake.defaultBuildTarget": "Viewer2d",
+    "cmake.debugTarget": "Viewer2d"
+}

@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "PlaneGeometryTests_autogen_timestamp_deps::@08b4cb1648a15a99be29"
+		}
+	],
+	"id" : "PlaneGeometryTests_autogen::@08b4cb1648a15a99be29",
+	"isGeneratorProvided" : true,
+	"name" : "PlaneGeometryTests_autogen",
+	"paths" : 
+	{
+		"build" : "src/tests",
+		"source" : "src/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/CMakeFiles/PlaneGeometryTests_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/CMakeFiles/PlaneGeometryTests_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/tests/PlaneGeometryTests_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

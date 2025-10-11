@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "PlaneGeometry::@4862c6e8a9023a6ad953"
+		}
+	],
+	"id" : "PlaneGeometryTests_autogen_timestamp_deps::@08b4cb1648a15a99be29",
+	"isGeneratorProvided" : true,
+	"name" : "PlaneGeometryTests_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tests",
+		"source" : "src/tests"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/apps/Viewer2d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "PlaneGeometry::@4862c6e8a9023a6ad953"
+		}
+	],
+	"id" : "Viewer2d_autogen_timestamp_deps::@4594985fcce35a0beb51",
+	"isGeneratorProvided" : true,
+	"name" : "Viewer2d_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/apps/Viewer2d",
+		"source" : "src/apps/Viewer2d"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

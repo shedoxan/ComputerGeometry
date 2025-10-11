@@ -1,0 +1,308 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="centralLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Orientation</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="orientationLayout">
+        <item>
+         <widget class="DrawWidget" name="widget" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="orientationPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="text">
+              <string>Point is left of the segment (1)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="text">
+              <string>Point lies on the segment (0)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_3">
+             <property name="text">
+              <string>Point is right of the segment (-1)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>Check point position</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Intersection</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="intersectionLayout">
+        <item>
+         <widget class="SegmentIntersectionWidget" name="intersectionWidget" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="intersectionPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayoutIntersection">
+           <item>
+            <widget class="QRadioButton" name="intersectionRadioNone">
+             <property name="text">
+              <string>No intersection</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="intersectionRadioPoint">
+             <property name="text">
+              <string>Intersection at a point</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="intersectionRadioOverlap">
+             <property name="text">
+              <string>Segments overlap</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="computeIntersectionButton">
+             <property name="text">
+              <string>Find intersection</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="liveIntersectionCheckBox">
+             <property name="text">
+              <string>Live update while dragging</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="clearSegmentsButton">
+             <property name="text">
+              <string>Clear segments</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="intersectionTextBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="precisionTab">
+       <attribute name="title">
+        <string>High Precision</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="precisionMainLayout">
+        <item>
+         <widget class="PrecisionDrawWidget" name="precisionCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="precisionPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="precisionLayout">
+           <item>
+            <widget class="QLineEdit" name="precisionSegmentStartEdit">
+             <property name="placeholderText">
+              <string>(x1, y1)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="precisionSegmentEndEdit">
+             <property name="placeholderText">
+              <string>(x2, y2)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="precisionPointEdit">
+             <property name="placeholderText">
+              <string>(px, py)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="precisionEpsilonEdit">
+             <property name="placeholderText">
+              <string>1e-30</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="precisionCheckButton">
+             <property name="text">
+              <string>Check orientation</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="precisionClearButton">
+             <property name="text">
+              <string>Clear</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="precisionResultBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DrawWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">drawwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SegmentIntersectionWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">segmentintersectionwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PrecisionDrawWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">precisiondrawwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
