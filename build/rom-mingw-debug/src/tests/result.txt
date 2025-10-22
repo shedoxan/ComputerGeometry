@@ -1,0 +1,17 @@
+********* Start testing of PlaneGeometryTests *********
+Config: Using QtTest library 6.9.2, Qt 6.9.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : PlaneGeometryTests::initTestCase()
+PASS   : PlaneGeometryTests::orientation_left_double()
+PASS   : PlaneGeometryTests::orientation_on_segment_exact()
+PASS   : PlaneGeometryTests::orientation_right_exact()
+PASS   : PlaneGeometryTests::intersection_point_double()
+PASS   : PlaneGeometryTests::intersection_parallel_none()
+PASS   : PlaneGeometryTests::intersection_overlap_exact()
+PASS   : PlaneGeometryTests::convex_hull_square()
+FAIL!  : PlaneGeometryTests::convex_hull_collinear() Compared values are not the same
+   Actual   (static_cast<int>(hull.size())): 5
+   Expected (2)                            : 2
+C:\c++\Qt\project\src\tests\PlaneGeometryTests.cpp(125) : failure location
+PASS   : PlaneGeometryTests::cleanupTestCase()
+Totals: 9 passed, 1 failed, 0 skipped, 0 blacklisted, 3ms
+********* Finished testing of PlaneGeometryTests *********

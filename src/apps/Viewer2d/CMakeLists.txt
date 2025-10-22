@@ -11,6 +11,16 @@ add_executable(Viewer2d
   precisiondrawwidget.h
   precisionconverters.cpp
   precisionconverters.h
+  convexhullwidget.cpp
+  convexhullwidget.h
+  triangulationwidget.cpp
+  triangulationwidget.h
+  convexpolygonboolewidget.cpp
+  convexpolygonboolewidget.h
+  pointlocationwidget.cpp
+  pointlocationwidget.h
+  bezierwidget.cpp
+  bezierwidget.h
 )
 
 target_link_libraries(Viewer2d PRIVATE

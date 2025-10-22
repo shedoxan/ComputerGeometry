@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -49,7 +49,7 @@
             <verstretch>1</verstretch>
            </sizepolicy>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout">
+          <layout class="QVBoxLayout" name="orientationLayoutPanel">
            <item>
             <widget class="QRadioButton" name="radioButton">
              <property name="text">
@@ -180,6 +180,72 @@
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="hullTab">
+       <attribute name="title">
+        <string>Convex Hull</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="hullLayout">
+        <item>
+         <widget class="ConvexHullWidget" name="hullCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="hullPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="hullPanelLayout">
+           <item>
+            <widget class="QPushButton" name="buildHullButton">
+             <property name="text">
+              <string>Build convex hull</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="liveHullCheckBox">
+             <property name="text">
+              <string>Live update while dragging</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="clearHullButton">
+             <property name="text">
+              <string>Clear hull</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="hullTextBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
       <widget class="QWidget" name="precisionTab">
        <attribute name="title">
         <string>High Precision</string>
@@ -267,6 +333,351 @@
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="triangulationTab">
+       <attribute name="title">
+        <string>Triangulation</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="triangulationLayout">
+        <item>
+         <widget class="TriangulationWidget" name="triangulationCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="triangulationPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="triangulationPanelLayout">
+           <item>
+            <widget class="QPushButton" name="triangulationComputeButton">
+             <property name="text">
+              <string>Compute Delaunay triangulation</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="triangulationLiveCheckBox">
+             <property name="text">
+              <string>Live recompute while dragging</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="triangulationDragCheckBox">
+             <property name="text">
+              <string>Enable point dragging</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="triangulationClearButton">
+             <property name="text">
+              <string>Clear points</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="triangulationSummaryBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="convexBooleanTab">
+       <attribute name="title">
+        <string>Convex Boolean</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="convexBooleanLayout">
+        <item>
+         <widget class="ConvexPolygonBooleWidget" name="convexBooleanCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="convexBooleanPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="convexBooleanPanelLayout">
+           <item>
+            <widget class="QPushButton" name="booleanFinalizeFirstButton">
+             <property name="text">
+              <string>Lock first polygon</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="booleanFinalizeSecondButton">
+             <property name="text">
+              <string>Lock second polygon</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="booleanOperationCombo">
+             <item>
+              <property name="text">
+               <string>Intersection</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Union</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Difference (A \ B)</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="booleanComputeButton">
+             <property name="text">
+              <string>Compute operation</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="booleanLiveCheckBox">
+             <property name="text">
+              <string>Live recompute on drag</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="booleanClearButton">
+             <property name="text">
+              <string>Reset polygons</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="booleanSummaryBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="pointLocationTab">
+       <attribute name="title">
+        <string>Point Localization</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="pointLocationLayout">
+        <item>
+         <widget class="PointLocationWidget" name="pointLocationCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="pointLocationPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="pointLocationPanelLayout">
+           <item>
+            <widget class="QPushButton" name="pointLocationFinalizeButton">
+             <property name="text">
+              <string>Build convex hull</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pointLocationClearButton">
+             <property name="text">
+              <string>Clear polygon</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pointLocationRemoveTestButton">
+             <property name="text">
+              <string>Remove test point</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="pointLocationDragCheckBox">
+             <property name="text">
+              <string>Enable dragging</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="pointLocationSummaryBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="bezierTab">
+       <attribute name="title">
+        <string>Bezier Curves</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="bezierLayout">
+        <item>
+         <widget class="BezierWidget" name="bezierCanvas" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="bezierPanel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>1</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QVBoxLayout" name="bezierPanelLayout">
+           <item>
+            <widget class="QComboBox" name="bezierDegreeCombo">
+             <item>
+              <property name="text">
+               <string>Linear (1st degree)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Quadratic (2nd degree)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cubic (3rd degree)</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="bezierSamplesSpin">
+             <property name="minimum">
+              <number>10</number>
+             </property>
+             <property name="maximum">
+              <number>1000</number>
+             </property>
+             <property name="value">
+              <number>200</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="bezierDragCheckBox">
+             <property name="text">
+              <string>Enable dragging</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="bezierClearButton">
+             <property name="text">
+              <string>Clear control points</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="bezierInfoBrowser">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </widget>
     </item>
    </layout>
@@ -297,9 +708,39 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>PrecisionDrawWidget</class>
+   <class>ConvexHullWidget</class>
    <extends>QWidget</extends>
-   <header location="global">precisiondrawwidget.h</header>
+   <header location="global">convexhullwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+  <class>PrecisionDrawWidget</class>
+  <extends>QWidget</extends>
+  <header location="global">precisiondrawwidget.h</header>
+  <container>1</container>
+ </customwidget>
+  <customwidget>
+   <class>TriangulationWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">triangulationwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ConvexPolygonBooleWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">convexpolygonboolewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PointLocationWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">pointlocationwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BezierWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">bezierwidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

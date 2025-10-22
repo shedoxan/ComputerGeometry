@@ -10,7 +10,6 @@ C:/c++/Qt/project/build/rom-mingw-debug/src/tests/PlaneGeometryTests_autogen/inc
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QVariant \
-  C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCoreDepends \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \

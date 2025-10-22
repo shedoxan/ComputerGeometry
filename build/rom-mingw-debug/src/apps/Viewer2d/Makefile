@@ -191,6 +191,78 @@ Viewer2d_autogen/mocs_compilation.cpp.s:
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.s
 .PHONY : Viewer2d_autogen/mocs_compilation.cpp.s
 
+bezierwidget.obj: bezierwidget.cpp.obj
+.PHONY : bezierwidget.obj
+
+# target to build an object file
+bezierwidget.cpp.obj:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj
+.PHONY : bezierwidget.cpp.obj
+
+bezierwidget.i: bezierwidget.cpp.i
+.PHONY : bezierwidget.i
+
+# target to preprocess a source file
+bezierwidget.cpp.i:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.i
+.PHONY : bezierwidget.cpp.i
+
+bezierwidget.s: bezierwidget.cpp.s
+.PHONY : bezierwidget.s
+
+# target to generate assembly for a file
+bezierwidget.cpp.s:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.s
+.PHONY : bezierwidget.cpp.s
+
+convexhullwidget.obj: convexhullwidget.cpp.obj
+.PHONY : convexhullwidget.obj
+
+# target to build an object file
+convexhullwidget.cpp.obj:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj
+.PHONY : convexhullwidget.cpp.obj
+
+convexhullwidget.i: convexhullwidget.cpp.i
+.PHONY : convexhullwidget.i
+
+# target to preprocess a source file
+convexhullwidget.cpp.i:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.i
+.PHONY : convexhullwidget.cpp.i
+
+convexhullwidget.s: convexhullwidget.cpp.s
+.PHONY : convexhullwidget.s
+
+# target to generate assembly for a file
+convexhullwidget.cpp.s:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.s
+.PHONY : convexhullwidget.cpp.s
+
+convexpolygonboolewidget.obj: convexpolygonboolewidget.cpp.obj
+.PHONY : convexpolygonboolewidget.obj
+
+# target to build an object file
+convexpolygonboolewidget.cpp.obj:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj
+.PHONY : convexpolygonboolewidget.cpp.obj
+
+convexpolygonboolewidget.i: convexpolygonboolewidget.cpp.i
+.PHONY : convexpolygonboolewidget.i
+
+# target to preprocess a source file
+convexpolygonboolewidget.cpp.i:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.i
+.PHONY : convexpolygonboolewidget.cpp.i
+
+convexpolygonboolewidget.s: convexpolygonboolewidget.cpp.s
+.PHONY : convexpolygonboolewidget.s
+
+# target to generate assembly for a file
+convexpolygonboolewidget.cpp.s:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.s
+.PHONY : convexpolygonboolewidget.cpp.s
+
 drawwidget.obj: drawwidget.cpp.obj
 .PHONY : drawwidget.obj
 
@@ -262,6 +334,30 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+pointlocationwidget.obj: pointlocationwidget.cpp.obj
+.PHONY : pointlocationwidget.obj
+
+# target to build an object file
+pointlocationwidget.cpp.obj:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj
+.PHONY : pointlocationwidget.cpp.obj
+
+pointlocationwidget.i: pointlocationwidget.cpp.i
+.PHONY : pointlocationwidget.i
+
+# target to preprocess a source file
+pointlocationwidget.cpp.i:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.i
+.PHONY : pointlocationwidget.cpp.i
+
+pointlocationwidget.s: pointlocationwidget.cpp.s
+.PHONY : pointlocationwidget.s
+
+# target to generate assembly for a file
+pointlocationwidget.cpp.s:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.s
+.PHONY : pointlocationwidget.cpp.s
 
 precisionconverters.obj: precisionconverters.cpp.obj
 .PHONY : precisionconverters.obj
@@ -335,6 +431,30 @@ segmentintersectionwidget.cpp.s:
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.s
 .PHONY : segmentintersectionwidget.cpp.s
 
+triangulationwidget.obj: triangulationwidget.cpp.obj
+.PHONY : triangulationwidget.obj
+
+# target to build an object file
+triangulationwidget.cpp.obj:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj
+.PHONY : triangulationwidget.cpp.obj
+
+triangulationwidget.i: triangulationwidget.cpp.i
+.PHONY : triangulationwidget.i
+
+# target to preprocess a source file
+triangulationwidget.cpp.i:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.i
+.PHONY : triangulationwidget.cpp.i
+
+triangulationwidget.s: triangulationwidget.cpp.s
+.PHONY : triangulationwidget.s
+
+# target to generate assembly for a file
+triangulationwidget.cpp.s:
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug && $(MAKE) $(MAKESILENT) -f src\apps\Viewer2d\CMakeFiles\Viewer2d.dir\build.make src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.s
+.PHONY : triangulationwidget.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -350,6 +470,15 @@ help:
 	@echo ... Viewer2d_autogen/mocs_compilation.obj
 	@echo ... Viewer2d_autogen/mocs_compilation.i
 	@echo ... Viewer2d_autogen/mocs_compilation.s
+	@echo ... bezierwidget.obj
+	@echo ... bezierwidget.i
+	@echo ... bezierwidget.s
+	@echo ... convexhullwidget.obj
+	@echo ... convexhullwidget.i
+	@echo ... convexhullwidget.s
+	@echo ... convexpolygonboolewidget.obj
+	@echo ... convexpolygonboolewidget.i
+	@echo ... convexpolygonboolewidget.s
 	@echo ... drawwidget.obj
 	@echo ... drawwidget.i
 	@echo ... drawwidget.s
@@ -359,6 +488,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... pointlocationwidget.obj
+	@echo ... pointlocationwidget.i
+	@echo ... pointlocationwidget.s
 	@echo ... precisionconverters.obj
 	@echo ... precisionconverters.i
 	@echo ... precisionconverters.s
@@ -368,6 +500,9 @@ help:
 	@echo ... segmentintersectionwidget.obj
 	@echo ... segmentintersectionwidget.i
 	@echo ... segmentintersectionwidget.s
+	@echo ... triangulationwidget.obj
+	@echo ... triangulationwidget.i
+	@echo ... triangulationwidget.s
 .PHONY : help
 
 

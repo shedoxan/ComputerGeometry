@@ -1,9 +1,9 @@
-#include "drawwidget.h"
+﻿#include "drawwidget.h"
 
 #include <QMouseEvent>
 #include <QPainter>
-#include <QPen>
 #include <QPalette>
+#include <QPen>
 
 DrawWidget::DrawWidget(QWidget* parent) : QWidget(parent) {
     setFocusPolicy(Qt::ClickFocus);
@@ -60,7 +60,7 @@ void DrawWidget::paintEvent(QPaintEvent* event) {
     painter.setPen(QPen(Qt::black, 1));
     painter.setBrush(Qt::red);
 
-    const QStringList labels = {"A", "B", "C"};
+    const QStringList labels = {QStringLiteral("A"), QStringLiteral("B"), QStringLiteral("C")};
     const QPointF offset{radius + 3, -radius};
 
     for (int i = 0; i < m_points.size(); ++i) {
@@ -68,8 +68,8 @@ void DrawWidget::paintEvent(QPaintEvent* event) {
 
         painter.drawEllipse(point, radius, radius);
 
-        const QString label = labels[i];
-
-        painter.drawText(point + offset, label);
-    }    
+        if (i < labels.size()) {
+            painter.drawText(point + offset, labels[i]);
+        }
+    }
 }

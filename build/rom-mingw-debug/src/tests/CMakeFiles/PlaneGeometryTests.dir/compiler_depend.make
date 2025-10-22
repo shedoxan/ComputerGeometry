@@ -12,7 +12,6 @@ src/tests/PlaneGeometryTests_autogen/timestamp: C:/Program\ Files/CMake/bin/cmak
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QVariant \
-  C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCoreDepends \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
@@ -902,7 +901,6 @@ src/tests/CMakeFiles/PlaneGeometryTests.dir/PlaneGeometryTests.cpp.obj: C:/c++/Q
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QVariant \
-  C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCore \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QtCoreDepends \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
@@ -1864,14 +1862,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/s
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList:
 
-C:/Qt/6.9.2/mingw_64/include/QtCore/qstringconverter_base.h:
-
-C:/Qt/6.9.2/mingw_64/include/QtCore/qtsymbolmacros.h:
-
-C:/Qt/6.9.2/mingw_64/include/QtCore/q20vector.h:
-
-C:/Qt/6.9.2/mingw_64/include/QtCore/QVector:
-
 C:/Qt/6.9.2/mingw_64/include/QtCore/qarraydata.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/QtCore:
@@ -1948,6 +1938,12 @@ C:/Qt/6.9.2/mingw_64/include/QtCore/qcborstream.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/q20iterator.h:
 
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/convex.h:
+
+C:/Qt/6.9.2/mingw_64/include/QtCore/qchronotimer.h:
+
+C:/Qt/6.9.2/mingw_64/include/QtCore/qtcore-config.h:
+
 C:/Qt/6.9.2/mingw_64/include/QtCore/q20map.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/qanimationgroup.h:
@@ -1967,6 +1963,12 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_vi
 C:/Qt/6.9.2/mingw_64/include/QtCore/q20utility.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/qminmax.h:
+
+C:/Qt/6.9.2/mingw_64/include/QtCore/qstringconverter_base.h:
+
+C:/Qt/6.9.2/mingw_64/include/QtCore/qtsymbolmacros.h:
+
+C:/Qt/6.9.2/mingw_64/include/QtCore/q20vector.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h:
 
@@ -2077,12 +2079,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_t
 C:/Qt/6.9.2/mingw_64/include/QtCore/qcborarray.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/qcborcommon.h:
-
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/convex.h:
-
-C:/Qt/6.9.2/mingw_64/include/QtCore/qchronotimer.h:
-
-C:/Qt/6.9.2/mingw_64/include/QtCore/qtcore-config.h:
 
 C:/Qt/6.9.2/mingw_64/include/QtCore/qcollator.h:
 

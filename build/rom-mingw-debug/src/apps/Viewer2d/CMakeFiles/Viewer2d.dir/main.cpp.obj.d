@@ -383,6 +383,8 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/main.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/QPolygonF \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qpolygon.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
@@ -662,6 +664,16 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/main.cpp.obj: \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/erf.hpp \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/detail/erf_inv.hpp \
  C:\c++\Qt\project\src\apps\Viewer2d\precisionconverters.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\convexhullwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/QPointF \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\precisiondrawwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\triangulationwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\convexpolygonboolewidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\pointlocationwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\bezierwidget.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qcoreapplication.h \

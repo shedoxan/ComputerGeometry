@@ -12,7 +12,6 @@ C:/c++/Qt/project/src/tests/PlaneGeometryTests.cpp
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QString
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QVariant
- mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QVector
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QtCore
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/QtCoreDepends
  mdp:C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h

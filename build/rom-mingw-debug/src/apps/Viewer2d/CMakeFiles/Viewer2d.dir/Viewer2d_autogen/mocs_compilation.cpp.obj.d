@@ -1,7 +1,7 @@
 src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.obj: \
  C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\mocs_compilation.cpp \
- C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_drawwidget.cpp \
- C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_bezierwidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QPointF \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qpoint.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qcompare.h \
@@ -386,20 +386,6 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/QList \
- C:/Qt/6.9.2/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/q20algorithm.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/q23type_traits.h \
- C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.h \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/qmainwindow.h \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
- C:/Qt/6.9.2/mingw_64/include/QtCore/qstring.h \
  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/cpp_dec_float.hpp \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
@@ -674,8 +660,40 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/detail/gamma_inva.hpp \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/erf.hpp \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/detail/erf_inv.hpp \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/QList \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qtmochelpers.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qtmocconstants.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/q20algorithm.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/q23type_traits.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_convexhullwidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_convexpolygonboolewidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/QPolygonF \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qpolygon.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_drawwidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qstring.h \
  C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_pointlocationwidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h \
  C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_precisiondrawwidget.cpp \
  C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.h \
  C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_segmentintersectionwidget.cpp \
- C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.h
+ C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.h \
+ C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d\Viewer2d_autogen\EWIEGA46WW/moc_triangulationwidget.cpp \
+ C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h

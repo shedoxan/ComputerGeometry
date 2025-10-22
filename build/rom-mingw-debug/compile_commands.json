@@ -42,6 +42,36 @@
   "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj"
 },
 {
+  "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Viewer2d.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Viewer2d.dir\\convexhullwidget.cpp.obj -c C:\\c++\\Qt\\project\\src\\apps\\Viewer2d\\convexhullwidget.cpp",
+  "file": "C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.cpp",
+  "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj"
+},
+{
+  "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Viewer2d.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Viewer2d.dir\\triangulationwidget.cpp.obj -c C:\\c++\\Qt\\project\\src\\apps\\Viewer2d\\triangulationwidget.cpp",
+  "file": "C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.cpp",
+  "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj"
+},
+{
+  "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Viewer2d.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Viewer2d.dir\\convexpolygonboolewidget.cpp.obj -c C:\\c++\\Qt\\project\\src\\apps\\Viewer2d\\convexpolygonboolewidget.cpp",
+  "file": "C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.cpp",
+  "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj"
+},
+{
+  "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Viewer2d.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Viewer2d.dir\\pointlocationwidget.cpp.obj -c C:\\c++\\Qt\\project\\src\\apps\\Viewer2d\\pointlocationwidget.cpp",
+  "file": "C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.cpp",
+  "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj"
+},
+{
+  "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Viewer2d.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Viewer2d.dir\\bezierwidget.cpp.obj -c C:\\c++\\Qt\\project\\src\\apps\\Viewer2d\\bezierwidget.cpp",
+  "file": "C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.cpp",
+  "output": "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj"
+},
+{
   "directory": "C:/c++/Qt/project/build/rom-mingw-debug/src/lib/PlaneGeometry",
   "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  @CMakeFiles/PlaneGeometry.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlaneGeometry.dir\\PlaneGeometry_autogen\\mocs_compilation.cpp.obj -c C:\\c++\\Qt\\project\\build\\rom-mingw-debug\\src\\lib\\PlaneGeometry\\PlaneGeometry_autogen\\mocs_compilation.cpp",
   "file": "C:/c++/Qt/project/build/rom-mingw-debug/src/lib/PlaneGeometry/PlaneGeometry_autogen/mocs_compilation.cpp",

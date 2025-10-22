@@ -1,0 +1,228 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/apps",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.apps-Debug-bc84cd9944d8b7f15a23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/apps"
+				},
+				{
+					"build" : "src/apps/Viewer2d",
+					"jsonFile" : "directory-src.apps.Viewer2d-Debug-9e12fdb3ed2492432d75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/apps/Viewer2d",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/lib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-src.lib-Debug-77b8521428f2882cb259.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/lib"
+				},
+				{
+					"build" : "src/lib/PlaneGeometry",
+					"jsonFile" : "directory-src.lib.PlaneGeometry-Debug-4b18df63c3e3726b9fe1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/lib/PlaneGeometry",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src/tests",
+					"jsonFile" : "directory-src.tests-Debug-5754f03761777cfcdbde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/tests",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "BigProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "PlaneGeometry::@4862c6e8a9023a6ad953",
+					"jsonFile" : "target-PlaneGeometry-Debug-4543973888e9fdf35070.json",
+					"name" : "PlaneGeometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PlaneGeometryTests::@08b4cb1648a15a99be29",
+					"jsonFile" : "target-PlaneGeometryTests-Debug-5e04d8f84dcb21738656.json",
+					"name" : "PlaneGeometryTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PlaneGeometryTests_autogen::@08b4cb1648a15a99be29",
+					"jsonFile" : "target-PlaneGeometryTests_autogen-Debug-76ac63f08c7d756a0a99.json",
+					"name" : "PlaneGeometryTests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PlaneGeometryTests_autogen_timestamp_deps::@08b4cb1648a15a99be29",
+					"jsonFile" : "target-PlaneGeometryTests_autogen_timestamp_deps-Debug-45c4eaa4f9ed8d689d24.json",
+					"name" : "PlaneGeometryTests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PlaneGeometry_autogen::@4862c6e8a9023a6ad953",
+					"jsonFile" : "target-PlaneGeometry_autogen-Debug-f0a63a0f08e00a79756a.json",
+					"name" : "PlaneGeometry_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PlaneGeometry_autogen_timestamp_deps::@4862c6e8a9023a6ad953",
+					"jsonFile" : "target-PlaneGeometry_autogen_timestamp_deps-Debug-423036e840138d9b3b47.json",
+					"name" : "PlaneGeometry_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Viewer2d::@4594985fcce35a0beb51",
+					"jsonFile" : "target-Viewer2d-Debug-6839b024eec0556c47c5.json",
+					"name" : "Viewer2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Viewer2d_autogen::@4594985fcce35a0beb51",
+					"jsonFile" : "target-Viewer2d_autogen-Debug-78abf5840fd9a20e5df4.json",
+					"name" : "Viewer2d_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Viewer2d_autogen_timestamp_deps::@4594985fcce35a0beb51",
+					"jsonFile" : "target-Viewer2d_autogen_timestamp_deps-Debug-5d61bfce2333a2d9175f.json",
+					"name" : "Viewer2d_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/c++/Qt/project/build/rom-mingw-debug",
+		"source" : "C:/c++/Qt/project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

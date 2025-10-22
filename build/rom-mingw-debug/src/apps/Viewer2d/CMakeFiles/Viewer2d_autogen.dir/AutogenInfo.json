@@ -13,6 +13,24 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_bezierwidget.cpp",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_convexhullwidget.cpp",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h",
+			"MU",
+			"EWIEGA46WW/moc_convexpolygonboolewidget.cpp",
+			null
+		],
+		[
 			"C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_drawwidget.cpp",
@@ -22,6 +40,12 @@
 			"C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pointlocationwidget.cpp",
 			null
 		],
 		[
@@ -40,6 +64,12 @@
 			"C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_segmentintersectionwidget.cpp",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_triangulationwidget.cpp",
 			null
 		]
 	],
@@ -117,9 +147,25 @@
 	"SETTINGS_FILE" : "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/CMakeFiles/Viewer2d_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.cpp", "MU", null ],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.cpp",
+			"MU",
+			null
+		],
 		[ "C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.cpp", "MU", null ],
 		[ "C:/c++/Qt/project/src/apps/Viewer2d/main.cpp", "MU", null ],
 		[ "C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.cpp", "MU", null ],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.cpp",
 			"MU",
@@ -132,6 +178,11 @@
 		],
 		[
 			"C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.cpp",
 			"MU",
 			null
 		]

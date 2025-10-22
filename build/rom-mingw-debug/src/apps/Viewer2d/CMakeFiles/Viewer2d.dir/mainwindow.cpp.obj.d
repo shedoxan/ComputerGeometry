@@ -383,6 +383,8 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/QPolygonF \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qpolygon.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
@@ -662,6 +664,16 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/erf.hpp \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/detail/erf_inv.hpp \
  C:\c++\Qt\project\src\apps\Viewer2d\precisionconverters.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\convexhullwidget.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/QPointF \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\precisiondrawwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\triangulationwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\convexpolygonboolewidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\pointlocationwidget.h \
+ C:\c++\Qt\project\src\apps\Viewer2d\bezierwidget.h \
  C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/include/ui_mainwindow.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qvariant.h \
@@ -683,6 +695,20 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QCheckBox \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qcheckbox.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QComboBox \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qcombobox.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qrubberband.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.9.2/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QHBoxLayout \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qlayout.h \
@@ -691,7 +717,6 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QLineEdit \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qlineedit.h \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qtextcursor.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qtextdocument.h \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qurl.h \
@@ -706,6 +731,8 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QRadioButton \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qradiobutton.h \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QSpinBox \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qstatusbar.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QTabWidget \
@@ -716,21 +743,23 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h \
  C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/QPointF \
- C:/Qt/6.9.2/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.9.2/mingw_64/include/QtWidgets/QWidget \
+ C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h \
  C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.h \
  C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.h \
+ C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QCheckBox \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QComboBox \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.9.2/mingw_64/include/QtWidgets/QSpinBox \
  C:/Qt/6.9.2/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.9.2/mingw_64/include/QtCore/qstringlist.h \
- C:\c++\Qt\project\src\apps\Viewer2d\segmentintersectionwidget.h \
  C:\c++\Qt\project\src\apps\Viewer2d\drawwidget.h \
- C:\c++\Qt\project\src\apps\Viewer2d\precisiondrawwidget.h
+ C:\c++\Qt\project\src\apps\Viewer2d\segmentintersectionwidget.h

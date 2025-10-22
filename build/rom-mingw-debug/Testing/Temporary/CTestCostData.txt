@@ -1,2 +1,2 @@
-PlaneGeometryTests 4 0.0164931
+PlaneGeometryTests 6 0.14229
 ---

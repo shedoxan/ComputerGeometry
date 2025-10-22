@@ -1,30 +1,18 @@
-Start testing: Oct 12 00:47 RTZ 2 (çèìà)
+Start testing: Oct 16 14:03 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/1 Testing: PlaneGeometryTests
 1/1 Test: PlaneGeometryTests
-Command: "C:/Program Files/CMake/bin/cmake.exe" "-E" "env" "PATH=C:/Qt/6.9.2/mingw_64/bin;C:/c++/Qt/project/build/rom-mingw-debug/src/tests;C:\Users\fadee\AppData\Local\Temp\.tmp5z7ACZ;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\fadee\anaconda3;C:\Users\fadee\anaconda3\Scripts;C:\Program Files\NVIDIA\CUDNN\v9.6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\c++\SFML-2.6.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\fadee\Documents\GitHub\vcpkg\installed\x64-windows\bin;C:\Users\fadee\Documents\GitHub\libtorch\bin;C:\Users\fadee\Documents\GitHub\gnuplot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib\x64;C:\Program Files\PostgreSQL\17\bin;C:\msys64\ucrt64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\\..\extras\CUPTI\lib64;C:\Program Files\NVIDIA\CUDNN\v9.6\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\fadee\Documents\GitHub\vcpkg\installed\x64-windows\bin;C:\Users\fadee\Documents\GitHub\libtorch\bin;C:\Users\fadee\Documents\GitHub\gnuplot\bin;C:\Program Files\NVIDIA GPU Computing To;C:\Program Files\JetBrains\CLion 2024.3.4\bin;;C:\Users\fadee\AppData\Local\GitHubDesktop\bin;C:\Users\fadee\anaconda3;C:\Users\fadee\AppData\Local\Programs\Microsoft VS Code\bin;;c:\Users\fadee\.vscode\extensions\openai.chatgpt-0.4.19-win32-x64\bin\windows-x86_64" "PlaneGeometryTests"
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-E" "env" "PATH=C:/Qt/6.9.2/mingw_64/bin;C:/c++/Qt/project/build/rom-mingw-debug/src/tests;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\fadee\anaconda3;C:\Users\fadee\anaconda3\Scripts;C:\Program Files\NVIDIA\CUDNN\v9.6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\c++\SFML-2.6.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\fadee\Documents\GitHub\vcpkg\installed\x64-windows\bin;C:\Users\fadee\Documents\GitHub\libtorch\bin;C:\Users\fadee\Documents\GitHub\gnuplot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib\x64;C:\Program Files\PostgreSQL\17\bin;C:\msys64\ucrt64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\\..\extras\CUPTI\lib64;C:\Program Files\NVIDIA\CUDNN\v9.6\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\fadee\Documents\GitHub\vcpkg\installed\x64-windows\bin;C:\Users\fadee\Documents\GitHub\libtorch\bin;C:\Users\fadee\Documents\GitHub\gnuplot\bin;C:\Program Files\NVIDIA GPU Computing To;C:\Program Files\JetBrains\CLion 2024.3.4\bin;;C:\Users\fadee\AppData\Local\GitHubDesktop\bin;C:\Users\fadee\anaconda3;C:\Users\fadee\AppData\Local\Programs\Microsoft VS Code\bin;" "PlaneGeometryTests"
 Directory: C:/c++/Qt/project/build/rom-mingw-debug/src/tests
-"PlaneGeometryTests" start time: Oct 12 00:47 RTZ 2 (çèìà)
+"PlaneGeometryTests" start time: Oct 16 14:03 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
-********* Start testing of PlaneGeometryTests *********
-Config: Using QtTest library 6.9.2, Qt 6.9.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
-PASS   : PlaneGeometryTests::initTestCase()
-PASS   : PlaneGeometryTests::orientation_left_double()
-PASS   : PlaneGeometryTests::orientation_on_segment_exact()
-PASS   : PlaneGeometryTests::orientation_right_exact()
-PASS   : PlaneGeometryTests::intersection_point_double()
-PASS   : PlaneGeometryTests::intersection_parallel_none()
-PASS   : PlaneGeometryTests::intersection_overlap_exact()
-PASS   : PlaneGeometryTests::cleanupTestCase()
-Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 2ms
-********* Finished testing of PlaneGeometryTests *********
 <end of output>
-Test time =   0.07 sec
+Test time =   0.85 sec
 ----------------------------------------------------------
 Test Passed.
-"PlaneGeometryTests" end time: Oct 12 00:47 RTZ 2 (çèìà)
+"PlaneGeometryTests" end time: Oct 16 14:03 RTZ 2 (çèìà)
 "PlaneGeometryTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 12 00:47 RTZ 2 (çèìà)
+End testing: Oct 16 14:03 RTZ 2 (çèìà)

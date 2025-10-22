@@ -2,13 +2,19 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPolygonF>
 #include <QString>
 #include <QVector>
+#include <vector>
 
 #include "PlaneGeometry/PlaneOperations.h"
 #include "precisionconverters.h"
-
-class PrecisionDrawWidget;
+#include "convexhullwidget.h"
+#include "precisiondrawwidget.h"
+#include "triangulationwidget.h"
+#include "convexpolygonboolewidget.h"
+#include "pointlocationwidget.h"
+#include "bezierwidget.h"
 
 using PlaneScalar = double;
 using PlanePointD = plane_geometry::Point2D<PlaneScalar>;
@@ -24,45 +30,135 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
-    public:
-        explicit MainWindow(QWidget* parent = nullptr);
-        ~MainWindow();
+public:
+    explicit MainWindow(QWidget* parent = nullptr);
+    ~MainWindow() override;
 
-    private slots:
-        void updatePoints(const QVector<QPointF>& points);
-        void onCheckOrientation();
+private slots:
+    void updatePoints(const QVector<QPointF>& points);
+    void onCheckOrientation();
 
-        void onSegmentsChanged(const QVector<QPointF>& points);
-        void onComputeIntersectionClicked();
-        void onLiveIntersectionToggled(bool checked);
-        void onClearSegmentsClicked();
-        void onPrecisionCheckButtonClicked();
-        void onPrecisionClearButtonClicked();
-        void onPrecisionCanvasPointsChanged(const QVector<plane_geometry::Point2D<plane_geometry::ExactScalar>>& points);
+    void onSegmentsChanged(const QVector<QPointF>& points);
+    void onComputeIntersectionClicked();
+    void onLiveIntersectionToggled(bool checked);
+    void onClearSegmentsClicked();
 
-    private:
-        void applyOrientationResult(bool hasResult, plane_geometry::Orientation orientation);
-        QString orientationDescription(plane_geometry::Orientation orientation) const;
-        void updatePointsSummary();
+    void onPrecisionCheckButtonClicked();
+    void onPrecisionClearButtonClicked();
+    void onPrecisionCanvasPointsChanged(const QVector<plane_geometry::Point2D<plane_geometry::ExactScalar>>& points);
 
-        void updateIntersectionSummary();
-        void applyIntersectionResult();
-        bool intersectionSegmentsReady() const;
-        SegmentIntersectionResultD evaluateIntersection() const;
+    void onHullPointsChanged(const QVector<QPointF>& points);
+    void onBuildHullClicked();
+    void onLiveHullToggled(bool checked);
+    void onClearHullClicked();
 
-        Ui::MainWindow* ui;                                                                         // указатель на сгенерированный класс UI
-        QVector<QPointF> m_points;                                                                  // точки из DrawWidget (A,B — отрезок, C — тест)
-        bool m_hasOrientationResult = false;                                                        // есть ли кэш результата ориентации?
-        plane_geometry::Orientation m_lastOrientation = plane_geometry::Orientation::OnSegment;     // последний результат ориентации 
-        QString m_lastResultSummary;                                                                // строка-резюме для textBrowser
+    void onTriangulationPointsChanged(const QVector<QPointF>& points);
+    void onTriangulationComputeClicked();
+    void onTriangulationLiveToggled(bool checked);
+    void onTriangulationDragToggled(bool checked);
+    void onTriangulationClearClicked();
 
-        QVector<QPointF> m_segmentPoints;                                                           // точки из SegmentIntersectionWidget (A, B, C, D)
-        bool m_liveIntersection = false;                                                            // живой пересчёт при каждом движении точки?
-        bool m_hasIntersectionResult = false;                                                       // есть ли кэш результата пересечения?  
-        SegmentIntersectionResultD m_lastIntersection{};                                            // последний результат 
-        QString m_lastIntersectionSummary;                                                          // описание результата для UI 
+    void onBooleanPolygonsChanged();
+    void onBooleanFinalizeFirstClicked();
+    void onBooleanFinalizeSecondClicked();
+    void onBooleanComputeClicked();
+    void onBooleanOperationChanged(int index);
+    void onBooleanLiveToggled(bool checked);
+    void onBooleanClearClicked();
+    void onBooleanPhaseChanged(ConvexPolygonBooleWidget::Phase phase);
 
-        PrecisionDrawWidget* m_precisionCanvas = nullptr;
+    void onPointLocationPointsChanged(const QVector<QPointF>& points);
+    void onPointLocationHullReady(const QVector<QPointF>& hull);
+    void onPointLocationTestPointChanged(const QPointF& point);
+    void onPointLocationSummaryChanged(plane_geometry::PointClassification classification,
+                                       const QString& description);
+    void onPointLocationFinalizeClicked();
+    void onPointLocationClearClicked();
+    void onPointLocationRemoveTestClicked();
+    void onPointLocationDragToggled(bool checked);
+
+    void onBezierControlPointsChanged(const QVector<QPointF>& points);
+    void onBezierCurveUpdated(const QVector<QPointF>& curve);
+    void onBezierDegreeChanged(int index);
+    void onBezierSamplesChanged(int value);
+    void onBezierDragToggled(bool checked);
+    void onBezierClearClicked();
+
+private:
+    void applyOrientationResult(bool hasResult, plane_geometry::Orientation orientation);
+    QString orientationDescription(plane_geometry::Orientation orientation) const;
+    void updatePointsSummary();
+
+    void updateHullSummary();
+    void rebuildConvexHull();
+    void clearConvexHull();
+
+    void updateIntersectionSummary();
+    void applyIntersectionResult();
+    bool intersectionSegmentsReady() const;
+    SegmentIntersectionResultD evaluateIntersection() const;
+
+    void updateTriangulationSummary();
+    void computeDelaunayTriangulation();
+
+    enum class BooleanOperation {
+        Intersection,
+        Union,
+        Difference
+    };
+    void updateBooleanSummary();
+    void recomputeBooleanOperation();
+    BooleanOperation currentBooleanOperation() const;
+    void updateBooleanControls();
+    static QVector<QPointF> toQPointVector(const std::vector<plane_geometry::Point2D<double>>& polygon);
+    static std::vector<plane_geometry::Point2D<double>> toGeometryPoints(const QVector<QPointF>& points);
+
+    void updatePointLocationSummary(const QString& description);
+    void updateBezierInfo();
+
+    Ui::MainWindow* ui = nullptr;
+
+    QVector<QPointF> m_orientationPoints;
+    bool m_hasOrientationResult = false;
+    plane_geometry::Orientation m_lastOrientation = plane_geometry::Orientation::OnSegment;
+    QString m_lastResultSummary;
+
+    QVector<QPointF> m_segmentPoints;
+    bool m_liveIntersection = false;
+    bool m_hasIntersectionResult = false;
+    SegmentIntersectionResultD m_lastIntersection{};
+    QString m_lastIntersectionSummary;
+
+    QVector<QPointF> m_hullInputPoints;
+    QVector<QPointF> m_convexHullPoints;
+    bool m_hasConvexHull = false;
+    bool m_liveConvexHull = false;
+    QString m_convexHullSummary;
+
+    ConvexHullWidget* m_hullCanvas = nullptr;
+    PrecisionDrawWidget* m_precisionCanvas = nullptr;
+
+    TriangulationWidget* m_triangulationCanvas = nullptr;
+    QVector<QPolygonF> m_triangulationTriangles;
+    bool m_triangulationLive = false;
+    QString m_triangulationSummary;
+
+    ConvexPolygonBooleWidget* m_booleanCanvas = nullptr;
+    bool m_booleanLive = false;
+    QVector<QPolygonF> m_booleanOuters;
+    QVector<QPolygonF> m_booleanHoles;
+    QString m_booleanSummary;
+    QString m_booleanStatusMessage;
+
+    PointLocationWidget* m_pointLocationCanvas = nullptr;
+    QString m_pointLocationSummary;
+    QString m_pointLocationStatusText;
+    QPointF m_pointLocationTestPoint{};
+    bool m_pointLocationHasTestPoint = false;
+
+    BezierWidget* m_bezierCanvas = nullptr;
+    QVector<QPointF> m_bezierCurvePoints;
+    QString m_bezierInfo;
 };
 
 #endif

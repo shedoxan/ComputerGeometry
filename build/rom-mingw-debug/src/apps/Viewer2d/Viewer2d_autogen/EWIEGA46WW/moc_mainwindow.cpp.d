@@ -1,5 +1,6 @@
 C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.h \
   C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/moc_predefs.h \
+  C:/Qt/6.9.2/mingw_64/include/QtCore/QPointF \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
@@ -128,6 +129,7 @@ C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/EWIEG
   C:/Qt/6.9.2/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.9.2/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.9.2/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.9.2/mingw_64/include/QtGui/QPolygonF \
   C:/Qt/6.9.2/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.9.2/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.9.2/mingw_64/include/QtGui/qbrush.h \
@@ -155,6 +157,7 @@ C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/EWIEG
   C:/Qt/6.9.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.9.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.9.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.9.2/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.9.2/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.9.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -635,5 +638,11 @@ C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/EWIEG
   C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/remove_cv.hpp \
   C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/type_identity.hpp \
   C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/version.hpp \
+  C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h \
+  C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h \
+  C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h \
+  C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h \
   C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.h \
+  C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.h \
+  C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h \
   C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h

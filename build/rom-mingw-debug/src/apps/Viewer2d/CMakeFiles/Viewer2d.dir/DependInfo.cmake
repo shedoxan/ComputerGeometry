@@ -10,12 +10,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "src/apps/Viewer2d/Viewer2d_autogen/timestamp" "custom" "src/apps/Viewer2d/Viewer2d_autogen/deps"
   "C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/mocs_compilation.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.obj.d"
+  "C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj.d"
+  "C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj.d"
+  "C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/drawwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/drawwidget.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/main.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/main.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/main.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/mainwindow.cpp.obj.d"
+  "C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisiondrawwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisiondrawwidget.cpp.obj.d"
   "C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.obj.d"
+  "C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.cpp" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj" "gcc" "src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

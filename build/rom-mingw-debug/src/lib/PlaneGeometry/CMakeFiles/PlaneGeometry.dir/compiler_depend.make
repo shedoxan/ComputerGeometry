@@ -4,6 +4,22 @@
 src/lib/PlaneGeometry/PlaneGeometry_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/c++/Qt/project/src/lib/PlaneGeometry/CMakeLists.txt \
   C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.cpp \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
+  C:/Program\ Files/CMake/bin/cmake.exe \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/CMakeLists.txt \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.cpp \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
+  C:/Program\ Files/CMake/bin/cmake.exe \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/CMakeLists.txt \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.cpp \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
+  C:/Program\ Files/CMake/bin/cmake.exe \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/CMakeLists.txt \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.cpp \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
+  C:/Program\ Files/CMake/bin/cmake.exe \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/CMakeLists.txt \
+  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.cpp \
   C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h
 
 src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneGeometry_autogen/mocs_compilation.cpp.obj: src/lib/PlaneGeometry/PlaneGeometry_autogen/mocs_compilation.cpp
@@ -68,6 +84,8 @@ src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj: C:/c
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
@@ -88,10 +106,14 @@ src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj: C:/c
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
@@ -143,14 +165,18 @@ src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj: C:/c
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -189,6 +215,7 @@ src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj: C:/c
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
@@ -196,6 +223,8 @@ src/lib/PlaneGeometry/CMakeFiles/PlaneGeometry.dir/PlaneOperations.cpp.obj: C:/c
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/quadmath.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
@@ -717,6 +746,12 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
 
+C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc:
+
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/traits/std_integer_traits.hpp:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_compat.h:
@@ -763,6 +798,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/float128_functions.hpp:
 
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/is_integral.hpp:
@@ -791,6 +828,14 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h:
 
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h:
+
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/cstdfloat/cstdfloat_complex_std.hpp:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/tools/assert.hpp:
@@ -802,6 +847,12 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
@@ -849,6 +900,8 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_t
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/math.h:
 
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
@@ -876,6 +929,8 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/t
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/special_functions/cos_pi.hpp:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath:
 
@@ -908,10 +963,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/s
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
 
@@ -965,7 +1016,17 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w6
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h:
 
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/dynamic_array.hpp:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h:
+
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/is_same.hpp:
+
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/loongarch.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/is_volatile.hpp:
 
@@ -1059,6 +1120,10 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w6
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
+C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/traits/explicit_conversion.hpp:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h:
@@ -1068,6 +1133,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h:
 
@@ -1114,8 +1181,6 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/malloc.h:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/process.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h:
-
-C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
@@ -1259,8 +1324,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/c
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/cstdfloat/cstdfloat_complex.hpp:
 
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/cstdfloat/cstdfloat_complex_std.hpp:
-
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/math/cstdfloat/cstdfloat_iostream.hpp:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/remove_cv.hpp:
@@ -1359,8 +1422,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multip
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/digits.hpp:
 
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/dynamic_array.hpp:
-
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/functions/pow.hpp:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/generic_interconvert.hpp:
@@ -1375,8 +1436,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multip
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/ublas_interop.hpp:
 
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/traits/explicit_conversion.hpp:
-
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/traits/is_backend.hpp:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/traits/is_variable_precision.hpp:
@@ -1390,10 +1449,6 @@ C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/convex.h:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/ia64.h:
-
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/type_traits/is_same.hpp:
-
-C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/loongarch.h:
 
 C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/predef/architecture/ppc.h:
 

@@ -128,6 +128,7 @@ Viewer2d_autogen/timestamp: \
 	C:/Qt/6.9.2/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.9.2/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.9.2/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.9.2/mingw_64/include/QtGui/QPolygonF \
 	C:/Qt/6.9.2/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.9.2/mingw_64/include/QtGui/qbitmap.h \
 	C:/Qt/6.9.2/mingw_64/include/QtGui/qbrush.h \
@@ -638,17 +639,27 @@ Viewer2d_autogen/timestamp: \
 	C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/version.hpp \
 	C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d_autogen/moc_predefs.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/CMakeLists.txt \
+	C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.cpp \
+	C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.h \
+	C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.cpp \
+	C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.h \
+	C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.cpp \
+	C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/drawwidget.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/main.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.h \
+	C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.cpp \
+	C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/precisionconverters.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/precisiondrawwidget.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.cpp \
 	C:/c++/Qt/project/src/apps/Viewer2d/segmentintersectionwidget.h \
+	C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.cpp \
+	C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.h \
 	C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
 	C:/c++/Qt/project/src/apps/Viewer2d/mainwindow.ui \
 	C:/Program\ Files/CMake/bin/cmake.exe

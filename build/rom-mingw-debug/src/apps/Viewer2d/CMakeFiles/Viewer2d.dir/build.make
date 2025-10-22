@@ -180,6 +180,81 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/precisionconverters.cpp.s"
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\precisionconverters.cpp -o CMakeFiles\Viewer2d.dir\precisionconverters.cpp.s
 
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/flags.make
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/includes_CXX.rsp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj: C:/c++/Qt/project/src/apps/Viewer2d/convexhullwidget.cpp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj -MF CMakeFiles\Viewer2d.dir\convexhullwidget.cpp.obj.d -o CMakeFiles\Viewer2d.dir\convexhullwidget.cpp.obj -c C:\c++\Qt\project\src\apps\Viewer2d\convexhullwidget.cpp
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.i"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++\Qt\project\src\apps\Viewer2d\convexhullwidget.cpp > CMakeFiles\Viewer2d.dir\convexhullwidget.cpp.i
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.s"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\convexhullwidget.cpp -o CMakeFiles\Viewer2d.dir\convexhullwidget.cpp.s
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/flags.make
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/includes_CXX.rsp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj: C:/c++/Qt/project/src/apps/Viewer2d/triangulationwidget.cpp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj -MF CMakeFiles\Viewer2d.dir\triangulationwidget.cpp.obj.d -o CMakeFiles\Viewer2d.dir\triangulationwidget.cpp.obj -c C:\c++\Qt\project\src\apps\Viewer2d\triangulationwidget.cpp
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.i"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++\Qt\project\src\apps\Viewer2d\triangulationwidget.cpp > CMakeFiles\Viewer2d.dir\triangulationwidget.cpp.i
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.s"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\triangulationwidget.cpp -o CMakeFiles\Viewer2d.dir\triangulationwidget.cpp.s
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/flags.make
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/includes_CXX.rsp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj: C:/c++/Qt/project/src/apps/Viewer2d/convexpolygonboolewidget.cpp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj -MF CMakeFiles\Viewer2d.dir\convexpolygonboolewidget.cpp.obj.d -o CMakeFiles\Viewer2d.dir\convexpolygonboolewidget.cpp.obj -c C:\c++\Qt\project\src\apps\Viewer2d\convexpolygonboolewidget.cpp
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.i"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++\Qt\project\src\apps\Viewer2d\convexpolygonboolewidget.cpp > CMakeFiles\Viewer2d.dir\convexpolygonboolewidget.cpp.i
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.s"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\convexpolygonboolewidget.cpp -o CMakeFiles\Viewer2d.dir\convexpolygonboolewidget.cpp.s
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/flags.make
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/includes_CXX.rsp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj: C:/c++/Qt/project/src/apps/Viewer2d/pointlocationwidget.cpp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj -MF CMakeFiles\Viewer2d.dir\pointlocationwidget.cpp.obj.d -o CMakeFiles\Viewer2d.dir\pointlocationwidget.cpp.obj -c C:\c++\Qt\project\src\apps\Viewer2d\pointlocationwidget.cpp
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.i"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++\Qt\project\src\apps\Viewer2d\pointlocationwidget.cpp > CMakeFiles\Viewer2d.dir\pointlocationwidget.cpp.i
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.s"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\pointlocationwidget.cpp -o CMakeFiles\Viewer2d.dir\pointlocationwidget.cpp.s
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/flags.make
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/includes_CXX.rsp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj: C:/c++/Qt/project/src/apps/Viewer2d/bezierwidget.cpp
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj -MF CMakeFiles\Viewer2d.dir\bezierwidget.cpp.obj.d -o CMakeFiles\Viewer2d.dir\bezierwidget.cpp.obj -c C:\c++\Qt\project\src\apps\Viewer2d\bezierwidget.cpp
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Viewer2d.dir/bezierwidget.cpp.i"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++\Qt\project\src\apps\Viewer2d\bezierwidget.cpp > CMakeFiles\Viewer2d.dir\bezierwidget.cpp.i
+
+src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Viewer2d.dir/bezierwidget.cpp.s"
+	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++\Qt\project\src\apps\Viewer2d\bezierwidget.cpp -o CMakeFiles\Viewer2d.dir\bezierwidget.cpp.s
+
 # Object files for target Viewer2d
 Viewer2d_OBJECTS = \
 "CMakeFiles/Viewer2d.dir/Viewer2d_autogen/mocs_compilation.cpp.obj" \
@@ -188,7 +263,12 @@ Viewer2d_OBJECTS = \
 "CMakeFiles/Viewer2d.dir/drawwidget.cpp.obj" \
 "CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.obj" \
 "CMakeFiles/Viewer2d.dir/precisiondrawwidget.cpp.obj" \
-"CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj"
+"CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj" \
+"CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj" \
+"CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj" \
+"CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj" \
+"CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj" \
+"CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj"
 
 # External object files for target Viewer2d
 Viewer2d_EXTERNAL_OBJECTS =
@@ -200,6 +280,11 @@ src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/drawwi
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/segmentintersectionwidget.cpp.obj
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisiondrawwidget.cpp.obj
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/precisionconverters.cpp.obj
+src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexhullwidget.cpp.obj
+src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/triangulationwidget.cpp.obj
+src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/convexpolygonboolewidget.cpp.obj
+src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/pointlocationwidget.cpp.obj
+src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/bezierwidget.cpp.obj
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/build.make
 src/apps/Viewer2d/Viewer2d.exe: src/lib/PlaneGeometry/libPlaneGeometry.a
 src/apps/Viewer2d/Viewer2d.exe: C:/Qt/6.9.2/mingw_64/lib/libQt6Widgets.a
@@ -208,7 +293,7 @@ src/apps/Viewer2d/Viewer2d.exe: C:/Qt/6.9.2/mingw_64/lib/libQt6Core.a
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/linkLibs.rsp
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/objects1.rsp
 src/apps/Viewer2d/Viewer2d.exe: src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Viewer2d.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++\Qt\project\build\rom-mingw-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Viewer2d.exe"
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Viewer2d.dir\link.txt --verbose=$(VERBOSE)
 	cd /d C:\c++\Qt\project\build\rom-mingw-debug\src\apps\Viewer2d && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/fadee/Documents/GitHub/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/c++/Qt/project/build/rom-mingw-debug/src/apps/Viewer2d/Viewer2d.exe -installedDir C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/debug/bin -OutVariable out
 

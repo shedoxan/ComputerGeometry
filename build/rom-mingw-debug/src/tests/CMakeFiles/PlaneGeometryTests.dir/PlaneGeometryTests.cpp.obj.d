@@ -836,7 +836,6 @@ src/tests/CMakeFiles/PlaneGeometryTests.dir/PlaneGeometryTests.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtTest/qtestsystem.h \
  C:/Qt/6.9.2/mingw_64/include/QtTest/qtesttostring.h \
  C:/Qt/6.9.2/mingw_64/include/QtTest/qttestversion.h \
- C:/Qt/6.9.2/mingw_64/include/QtCore/QVector \
  C:/c++/Qt/project/src/lib/PlaneGeometry/PlaneOperations.h \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/cpp_dec_float.hpp \
  C:/Users/fadee/Documents/GitHub/vcpkg/installed/x64-windows/include/boost/multiprecision/detail/standalone_config.hpp \

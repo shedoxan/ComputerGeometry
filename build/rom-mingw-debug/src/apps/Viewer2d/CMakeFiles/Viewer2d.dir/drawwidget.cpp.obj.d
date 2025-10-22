@@ -424,7 +424,7 @@ src/apps/Viewer2d/CMakeFiles/Viewer2d.dir/drawwidget.cpp.obj: \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.9.2/mingw_64/include/QtGui/QPen \
- C:/Qt/6.9.2/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.9.2/mingw_64/include/QtGui/QPalette \
- C:/Qt/6.9.2/mingw_64/include/QtGui/qpalette.h
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qpalette.h \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/QPen \
+ C:/Qt/6.9.2/mingw_64/include/QtGui/qpen.h
